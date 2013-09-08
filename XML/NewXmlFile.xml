@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<!--<origin missing="True" /> -->
+				<pubdate missing="True" />
+				<title missing="True" />
+				<geoform missing="True" />
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract missing="True" />
+			<purpose missing="True" />
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>Unknown</begdate>
+					<enddate>Unknown</enddate>
+				</rngdates>
+			</timeinfo>
+			<current missing="True" />
+		</timeperd>
+		<status>
+			<progress missing="True" />
+			<update missing="True" />
+		</status>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey missing="True" />
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+	</idinfo>
+	<metainfo>
+		<!--<metd>20130411</metd>-->
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper missing="True">
+					</cntper>
+				</cntperp>
+				<cntaddr>
+					<addrtype missing="True" />
+					<city missing="True" />
+					<state missing="True" />
+					<postal missing="True" />
+				</cntaddr>
+				<cntvoice missing="True" />
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001.1-1999</metstdv>
+	</metainfo>
+</metadata>

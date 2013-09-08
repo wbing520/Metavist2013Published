@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+	<main name="Identification" type="CAT" key="">
+		<sub name="Basic Info" type="MAN" key="frmTabBasicInfo" />
+		<sub name="Spatial Domain" type="MIA" key="frmTabSpatialDomain" />
+		<sub name="Keywords" type="MAN" key="frmTabKeywords" />
+		<sub name="Taxonomy" type="MIA" key="frmTabTaxonomy" />
+		<sub name="Access" type="MAN" key="frmTabAccess" />
+		<sub name="Analytical Tools" type="MIA" key="frmTabAnalyticalTools" />
+		<sub name="Miscellaneous" type="OPT" key="frmTabMiscellaneous" />
+	</main>
+	<main name="Data Quality" type="CAT" key="">
+		<sub name="Attribute Accuracy" type="MIA" key="frmTabAttributeAccuracy" />
+		<sub name="Consistency &amp; Completeness" type="MAN" key="frmTabConsistencyCompleteness" />
+		<sub name="Positional Accuracy" type="MIA" key="frmTabPositionalAccuracy" />
+		<sub name="Lineage" type="MAN" key="frmTabLineage" />
+		<sub name="Cloud Cover" type="OPT" key="frmTabCloudCover" />
+	</main>
+	<main name="Spatial Data Org" type="CAT" key="">
+		<sub name="Reference Method" type="MIA" key="frmTabReferenceMethod" />
+		<sub name="Vector Information" type="OPT" key="frmTabVectorInformation" />
+		<sub name="Raster Information" type="OPT" key="frmTabRasterInformation" />
+	</main>
+	<main name="Spatial Reference" type="CAT" key="">
+		<sub name="Horizontal Coordinate System Definition" type="MIA" key="frmTabHorizontalCoordinate" />
+		<sub name="Vertical Coordinate System Definition" type="MIA" key="frmTabVerticalCoordinate" />
+	</main>
+	<main name="Entity &amp; Attribute" type="CAT" key="">
+		<sub name="Detailed Descriptions" type="MAN" key="frmTabDetailedDescription" />
+		<sub name="Overview Descriptions" type="MAN" key="frmTabOverviewDescription" />
+	</main>
+	<main name="Distribution" type="CAT" key="">
+		<sub name="Distributors" type="MIA" key="frmTabDistributors" />
+	</main>
+	<main name="Metadata Ref" type="CAT" key="">
+		<sub name="Metadata Information" type="MAN" key="frmTabMetadataInformation" />
+		<sub name="Extensions" type="MIA" key="frmTabExtensions" />
+		<sub name="Constraints &amp; Security" type="OPT" key="frmTabConstraintsSecurity" />
+	</main>
+</sections>

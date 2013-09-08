@@ -1,0 +1,164 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="en-US">
+<head>
+<title>Metavist 2013 &mdash; Supplemental Documentation</title>
+</head>
+
+<body marginwidth="0" marginheight="0" bgcolor="2e5a2e">
+<!-- GLOBAL NAVIGATION -->
+<table summary="this table holds the global navigation at the top of the page" width=98% border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="143" height="29"><img src="Readme_images/i_logo02.gif" width="143" height="29" alt="USDA Forest Service"></td>
+  </tr>
+</table>
+
+<!--  /GLOBAL NAVIGATION -->
+
+<!-- HEADER -->
+
+<table summary="Layout table presenting the banners for this page." width=98% border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="229" height="44"> 
+      <p title="Primary header for the page."><img src="Readme_images/forest.gif" width="229" height="49" alt="forest header graphic"></p>
+    </td>
+    <td height="44" bgcolor="788A51"><h2 align="center">Research Data Archiving Project</h2></td>
+  </tr>
+</table>
+
+<!-- /HEADER -->
+
+<!-- MAIN LAYOUT TABLE -->
+
+<table summary="Main layout table = 2 cells. 1st cell = navigation links; 2nd = primary content." width=98% border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  
+<!-- MAIN NAVIGATION CELL -->
+
+    <td valign="top" bgcolor="#DBD594" width="224" rowspan="2">
+     <table summary="This is a navigation table." width="225" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+         <td valign="top" bgcolor="#5F7137">
+		
+<!-- MAIN NAVIGATION (TOP LEFT SIDE) LINKS --> 
+		
+	  <table summary="Nested, layout table holding the main navigation items on the top left, which are the main links for this site."
+	        width="224" border="0" cellpadding="0" cellspacing="0">
+            <tr bgcolor="#E0AE49"> 
+              <td valign="middle"><img border="0" src="Readme_images/i_bul01.gif" width="21" height="16" alt=" bullet"></td>
+              <td><font color="#FBF8E0"><b>Contact Info</b></font></td>
+            </tr>
+            <tr> 
+              <td><img border="0" src="Readme_images/i_bul02.gif" width="21" height="16" alt="  bullet"></td>
+              <td><font color="#FBF8E0">Dave Rugg</font></td>
+            </tr>
+            <tr>
+	      <td height="16">&nbsp;</td>
+              <td>
+                <p><a href="mailto:drugg@fs.fed.us"><font color="#CCCC99">drugg@fs.fed.us</font></a><br/>
+                   <a href="http://fs.usda.gov/rds/archive/" target="_blank"><font color="#CCCC99">Research Data Archive</font></a></p>
+                <p><font color="#FBF8E0">USDA Forest Service<br/>
+                   Research &amp; Development</font></p><br/>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+	  
+<!-- /MAIN NAVIGATION (TOP LEFT SIDE) LINKS -->
+
+      <tr>
+        <td valign="top">
+		
+<!-- LOCAL NAVIGATION (BOTTOM LEFT SIDE) LINKS -->
+
+	  <table summary="Nested, layout table holding navigation items for local information at this level within the Forest Service." 
+			       border="0" cellpadding="0" cellspacing="0" width="224" >
+          </table>
+			
+          <div align="center">
+            <br/>
+            <p><img src="Readme_images/full_wh.gif" width="90" height="100" alt="Forest Service Shield"></p>
+          </div>
+        </td>
+      </tr>
+     </table>
+    </td>
+	
+<!-- MAIN CONTENT CELL -->
+
+    <td valign="top" width=98% bgcolor="#FBF8E0">
+	
+      <table summary="Nested, layout table consisting of two cells which hold the main content." border="0" cellpadding="20" cellspacing="0" align="center">
+        <tr>
+	  <td>
+            <h2 align="center">Metavist 2013</h2>
+            <h3 align="center">Constructing Taxonomic Classifications &ndash; Working with ITIS</h3>
+            <p>The Taxonomic Classification metadata element wants a complete taxonomic hierarchy for each species in the data set. If you don&rsquo;t 
+	       know the full structure or have many species to describe, ITIS can be useful. The simplest use of ITIS is available from its 
+	       <a target="_blank" href="http://www.itis.gov">main page</a>, where you can specify a common or scientific name and have ITIS 
+	       return the taxonomic hierarchy. This has always been a great aid for working with Taxonomic Classification in Metavist.</p>
+
+            <p><strong>Advanced Use of ITIS</strong><br/>
+               At some point, constructing the tree manually gets either tedious or inefficient and you want a more automated approach. 
+	       In the left-hand navigation bar at the ITIS site, you&rsquo;ll see a link to &ldquo;Data Access and Tools&rdquo;. The 
+	       <a target="_blank" href="http://www.itis.gov/taxmatch_ftp.html">Compare Taxonomy/Nomenclature</a> tool can be very helpful.
+	       Two things to be aware of when using this tool:</p>
+	       <ul>
+		 <li>it can only handle one Kingdom at a time</li>
+		 <li>it uses &ldquo;SGML&rdquo; (Standard Generalized Markup Language); XML is a subset of SGML, and for our 
+		     purposes they are the same</li>
+	       </ul>
+
+            <p>Here is a process you can use:</p>
+	    <ol>
+		<li>Create a list of scientific species names using the &ldquo;Taxonomic Tool Use Guidelines&rdquo; at the ITIS web site. An
+		    example file (<a target="_blank" href="kefnames.txt">kefnames.txt</a>) is provided in the Metavist program directory.</li>
+		<li>Upload the file to ITIS using the "Browse" and "Upload File" buttons. You should get a new screen showing a successful upload. 
+		    Press the "OK" button to return to the "Step 1" screen.</li>
+		<li>Confirm the file name, select the delimiter (e.g., Pipe) and press the Step 2 button.</li>
+		<li>Optionally, "View Data File"</li>
+		<li>Select the appropriate Kingdom for your species list (for the kefnames.txt example, this is Plantae).</li>
+		<li>At "Step 4", select "Scientific Name (FGDC Biological Profile Report - Prototype)". 
+		    <em>Make sure you select the option that includes "FGDC Biological Profile Report"!</em></li>
+		<li>Press the "Taxonomy Compare" button.</li>
+		<li>Note any non-matches (you&rsquo;ll need to figure those out separately); make selections among duplicates as needed.</li>
+		<li>Press the "Generate FGDC Biological Data Profile SGML" button.</li>
+		<li>Download SGML data as appropriate for you browser. Prior to Step 12 of these directions, change the extension of the 
+		    file from '.txt' to '.xml'. (For the example file, the resulting SGML can be found in the Metavist program directory 
+		    as "sgmldownload141506.ansi.xml". There are special characters in this file that will cause an attempt to import into 
+		    Metavist to fail&mdash;try it out!)</li>
+		<li>Open the downloaded file in Notepad and re-save it with 
+		    <a href="javascript:location='ITIShelp.html';window.open('Notepad.html','New','HEIGHT= 400,WIDTH=590')">"Encoding" box</a> 
+		    set to "UTF-8" in order to preserve any special characters. (For the example file, the result can be found in the Metavist 
+		    program directory as "<a href="sgmldownload141506.utf8.xml" target="_blank">sgmldownload141506.utf8.xml</a>". This version 
+                    can be successfully imported into Metavist.)<br/>
+		    If you haven&rsquo;t already done so, change the extension from '.txt' to '.xml'.</li>
+		<li>Import the tree into the taxonomy in any of the three ways described in the general documentation (and repeated below).</li>
+	    </ol>
+	    <p>"IMPORT" button refresher. You can use the import feature in one of three ways:</p>
+	    <ul>
+	      <li><strong>Complete tree:</strong> If there is no Taxonomic Classification in your metadata document, you can simply import one 
+			  that you saved or acquired from ITIS. The imported tree can then be edited as needed.</li>
+	      <li><strong>Partial tree:</strong> If you have files containing the information for the final Taxonomic Classification, but multiple Kingdoms 
+		   will be needed, create the "Empire" level using Metavist, then "Import" one of the Kingdom files. When there is only one 
+		   node in the classification, Metavist knows to try appending the imported file to that node. </li>
+	     <li><strong>Tree editing:</strong> You can select a node for editing (in the list), then click on "Import" to attach multiple nodes to the 
+		   selected node from the specified file. Metavist will look in the specified import file for a node that matches the node 
+		   you selected. If it finds one, then it will import the descending lineage (i.e., child nodes) and attach it to the node 
+		   you selected. If more than one matching node is found, then an error message will pop up and no import is done. (Similarly, 
+		   if no matching node is found, an error message will pop up and no import is executed.)</li>
+	    </ul>
+	    <br/>
+         </td>
+       </tr>
+     </table>
+    </td>
+  </tr>
+</table>
+
+<!-- /MAIN LAYOUT TABLE -->
+
+<!-- /FOOTER LAYOUT TABLE -->
+&nbsp;<font color="#FFFFCC">Last modified: May 2013</font> 
+</body>
+</html>

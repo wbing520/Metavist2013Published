@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Metavist.exe" version="1.0.0.1" publicKeyToken="229e806969032e5b" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Properties\MetavistIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Metavist" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Metavist.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metavist.exe" size="15782400">
+      <assemblyIdentity name="Metavist" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jwgt0JvJztgv9IBvCL8OmePzPKM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\Metavist.resources.dll" size="348160">
+      <assemblyIdentity name="Metavist.resources" version="1.0.0.0" language="de" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>u6kjkXNh1NWEUlZyfy8S8oXQHBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es-MX\Metavist.resources.dll" size="3254784">
+      <assemblyIdentity name="Metavist.resources" version="1.0.0.0" language="es-MX" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Itqif/1MqAj5fxNyJVI/jmFzpnQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Metavist.exe.config" size="1946">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y58RN32hJJyPMQCT6mg2NnIxpt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\MetavistIcon.ico" size="320886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ksnDgh1c2AF0OhB7LSBUtBwLcaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Tools\ITIShelp.html" size="9114">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HducWZJcKBr4RfmX1aoxO5IciMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\FGDC Plus.xsl" size="257352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IWNFlWNVUhm6SoJX9lb0NNyOeh0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\HtmlCleaner.xslt" size="1079">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UGQlkP2BZKn2Zo+y+DqHPvGKvsQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\main.xml" size="2206" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UnBnI/9m6MeK/ZmD5egK/nt1G80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\Metavist.xml" size="711" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EZQunVi3sTYu+uS9/kfwOyhsZBk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\NBII_classic.xsl" size="93645">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F/cpDH72v5zC42nommSQM/7TAdk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\NewXmlFile.xml" size="1348" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>737Qk4Ra0ulFitQZtY+QC8WgBZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML\XmlCleaner.xslt" size="474">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5u+lVey4cX+o2v1sP2FfopiVn3Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=weibing-PC\weibing" issuerKeyHash="e8f936ae11e80338eeb543ae2cc17a0cf12ccfe1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CDYHdBp5ZWC1tGwsDOljX6xKZ5w=</DigestValue></Reference></SignedInfo><SignatureValue>XS5KBpYDfNow7wU0hc57BqmII3Zrldc8pobk4wgWySKsFmgV7l9r76IezxuXh2dpAGOtdNXE0CBUmay7LoqINTxfDUaeeFg2lYnM9/7oYEVNHL0tae6MKoyWtNc1tdd1mw3392P2Raj85sPvqXdZSoiiHmJRPJfcUNl7uv5s68I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kNq3DtRszhfCoOk82DCn8BJlMNGKot6wo0AIcHYQwkZQCjcU1dmtYEUu4/IGhaCMXdl6EYVaGSRn5TTKWZxbZfN7qXk/w7xcw2YlOP5V4F/J2sd7xGSiWUhjXyy8NLEDyxygGljngRNMmje2XwFiRqC+LQ/4ufSqBf4+g5EZTHM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9c674aac5f63e90c2c6cb4b56065791a74073608" Description="" Url=""><as:assemblyIdentity name="Metavist.exe" version="1.0.0.1" publicKeyToken="229e806969032e5b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=weibing-PC\weibing</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>28gRvjWrekJ0luNBe7JpK7CkVIs=</DigestValue></Reference></SignedInfo><SignatureValue>aoKq8a5B8zhkVYZdspdNJCTUsWwmgJRnZqlAenLDbE7FFXmQxxvyrBn1sLTBPnTdJ1DMjBOQuEonMhrUHLslYgsvnsmNPaKM/jvLbAsf8dDCXpwREcdoNMMtR8eruxdGNbaDSgHhmI94wYdDrf8/RJCRid31HtwgQ9NeoS7t1ms=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kNq3DtRszhfCoOk82DCn8BJlMNGKot6wo0AIcHYQwkZQCjcU1dmtYEUu4/IGhaCMXdl6EYVaGSRn5TTKWZxbZfN7qXk/w7xcw2YlOP5V4F/J2sd7xGSiWUhjXyy8NLEDyxygGljngRNMmje2XwFiRqC+LQ/4ufSqBf4+g5EZTHM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQTS0orTGmv5FCqvJRrJRHZDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAdwBlAGkAYgBpAG4AZwAtAFAAQwBcAHcAZQBpAGIAaQBuAGcwHhcNMTMwNTEzMjIyMTU0WhcNMTQwNTE0MDQyMTU0WjAvMS0wKwYDVQQDHiQAdwBlAGkAYgBpAG4AZwAtAFAAQwBcAHcAZQBpAGIAaQBuAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJDatw7UbM4XwqDpPNgwp/ASZTDRiqLesKNACHB2EMJGUAo3FNXZrWBFLuPyBoWgjF3ZehGFWhkkZ+U0ylmcW2Xze6l5P8O8XMNmJTj+VeBfydrHe8RkollIY18svDSxA8scoBpY54ETTJo3tl8BYkagvi0P+Ln0qgX+PoORGUxzAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAO582ddPpKQCjdhLvAvj2pf69CpEC2SNnxpvyzD4Kd1Vk99hpv6+jUpKQN2JScl+44ME86YGnPtO3d6fjxxVB2HHHIyI8jqDJh4nmL/OwRXUoWI3OHNPfcO7dh7cRw6bDd9S1Gv1gFvuQb7/tqi7v9tkNjtf4u4yaf/RbbtfpYRA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
